@@ -1,0 +1,3 @@
+	        FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(Main.class.getResource("application.fxml"));
+            AnchorPane root = (AnchorPane) loader.load(); 
